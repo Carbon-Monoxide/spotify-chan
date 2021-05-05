@@ -8,10 +8,9 @@ Create the .env file. Heres the requirements:
 
 ```
 SPOTIFY_CLIENT_ID=
-CLIENT_ID=
 CLIENT_SECRET=
 DISCORD_TOKEN=
-DEV_BUILD_TOKEN=
+DEV_BUILD_TOKEN=[optional]
 TOPGG_KEY=
 ```
 

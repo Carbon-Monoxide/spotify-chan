@@ -8,21 +8,8 @@ const dbl = new DBL(process.env.TOPGG_KEY, client);
 
 const prefix = "S>";
 
-// const dashBoard = new Dashboard (client, {
-//   port: 5999,
-//   clientId: process.env.CLIENT_ID,
-//   clientSecret: process.env.CLIENT_SECRET, 
-// //   redirectURL: "http://localhost:5999/auth/discord/callback"
-// })
 
 client.on("ready", () => {
-// Dashboard({
-//     port: 5999,
-//     clientID: process.env.CLIENT_ID,
-//     clientSecret: process.env.CLIENT_SECRET,
-//     callbackURL: "http://serv.stackdoubleflow.net:5999/auth/discord/callback"
-//     // requestLogger: false
-// });
   console.log(`Logged in as ${client.user.tag}!`);
   console.log(`Serving ${client.guilds.cache.size} server(s).`);
 });

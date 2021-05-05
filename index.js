@@ -8,7 +8,6 @@ const dbl = new DBL(process.env.TOPGG_KEY, client);
 
 const prefix = "S>";
 
-
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
   console.log(`Serving ${client.guilds.cache.size} server(s).`);

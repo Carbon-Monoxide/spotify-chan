@@ -4,16 +4,7 @@ Spotify-chan is a js discord bot for searching on spotify.
 
 ## Installation
 
-Use npm to run and install
-
-```bash
-git clone https://github.com/Carbon-Monoxide/spotify-chan.git
-cd spotify-chan
-npm install
-npm start
-```
-
-Then create the .env file. Heres the structure:
+Create the .env file. Heres the structure:
 
 ```
 SPOTIFY_CLIENT_ID=
@@ -24,6 +15,14 @@ DEV_BUILD_TOKEN=
 TOPGG_KEY=
 ```
 
+Then use npm to run and install
+
+```bash
+git clone https://github.com/Carbon-Monoxide/spotify-chan.git
+cd spotify-chan
+npm install
+npm start
+```
 ## Usage
 
 ```

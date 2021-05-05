@@ -13,6 +13,17 @@ npm install
 npm start
 ```
 
+Then create the .env file. Heres the structure:
+
+```
+SPOTIFY_CLIENT_ID=
+CLIENT_ID=
+CLIENT_SECRET=
+DISCORD_TOKEN=
+DEV_BUILD_TOKEN=
+TOPGG_KEY=
+```
+
 ## Usage
 
 ```

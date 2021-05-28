@@ -5,7 +5,7 @@ const request = require("request-promise-native");
 //Im using a .env file, if you want to run them make your own
 
 const base64Credentials = Buffer.from(
-  `${process.env.SPOTIFY_CLIENT_ID}:${process.env.CLIENT_SECRET}`
+  `${process.env.CLIENT_ID}:${process.env.CLIENT_SECRET}`
 ).toString("base64");
 
 async function getSpotifyAccessData() {

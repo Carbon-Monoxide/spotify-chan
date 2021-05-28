@@ -7,11 +7,11 @@ Spotify-chan is a js discord bot for searching on spotify.
 Create the .env file. Heres the requirements:
 
 ```
-SPOTIFY_CLIENT_ID=
-CLIENT_SECRET=
-DISCORD_TOKEN=
+CLIENT_ID=(spotify)
+CLIENT_SECRET=(spotify)
+DISCORD_TOKEN=(discord)
 DEV_BUILD_TOKEN=[optional]
-TOPGG_KEY=
+TOPGG_KEY=(top.gg)
 ```
 
 Then use npm to run and install
